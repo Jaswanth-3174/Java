@@ -1,5 +1,7 @@
 public class LongestPalindrome {
     public static void main(String[] args) {
+
+        // X -> not handling edge cases, see leetcode problem 5  <- X
         String str = "ABACDDC"; // output 4
         String temp = "$";
         for(int i = 0; i<str.length(); i++){
